@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "book_id": "001",
+      "book_name": "python",
+      "book_author": "author",
+      "can_borrow": false
+    }
+  ],
+  "members": [
+    {
+      "member_id": "M001",
+      "member_name": "marry",
+      "borrowed_book_ids": [
+        "001"
+      ]
+    }
+  ]
+}
