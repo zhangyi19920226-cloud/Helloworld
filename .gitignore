@@ -1,3 +1,4 @@
 /.DS_Store__pycache__/
 *.pyc
 back_up*/
+.DS_Store
