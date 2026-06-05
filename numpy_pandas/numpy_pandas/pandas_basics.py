@@ -16,3 +16,4 @@ print(df['name'])           # 取一列
 print(df[['name', 'score']])  # 取多列
 print(df.iloc[0])           # 取第一行
 print(df.loc[df['score'] > 90])  # 条件筛选
+print(df.loc[0]) # 取第一行，loc使用标签索引，iloc使用位置索引

@@ -9,3 +9,4 @@ print(np.exp(x))
 
 print(np.sqrt(np.array([1, 4, 9, 16])))
 print(np.log(np.array([1, np.e, np.e**2])))
+

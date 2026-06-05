@@ -30,5 +30,5 @@ b = np.fromfunction(f, (5, 4), dtype=int)
 b
 print(b[2, 3])  # 取出b数组中第3行第4列的元素（索引从0开始）索引为2的行和索引为3的列
 print(b[0:5, 1])  # 取出b数组中索引从0到5（不包含5）的行和索引为1的列的元素，即第2列的所有元素
-print(b[:, 1])    # equivalent to the previous example
-print(b[1:3, :])  # each column in the second and third row of b
+print(b[:, 1])    # 取出b数组中所有行和索引为1的列的元素，即第2列的所有元素
+print(b[1:3, :])  # 取出b数组中索引从1到3（不包含3）的行和所有列的元素，即第2行和第3行的所有元素
