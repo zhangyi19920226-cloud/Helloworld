@@ -15,3 +15,5 @@ plt.axvline(0, color='black', linewidth=0.5)
 plt.axis('equal')
 plt.grid(True)
 plt.show()
+
+
